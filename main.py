@@ -8,7 +8,7 @@ with open('code.txt') as file:
         elif 'equals' in line:
             variables[line[0]] = line[1]
         elif line[0] == 'say':
-            for i in line[1:]
+            for i in line[1:]:
                 if i.startswith('[') and i.endswith(']'):
                     print(variables[i.strip('[]')] if i.startswith('[') and i.endswith(']') else i, end=' ')
             print()
