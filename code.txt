@@ -1,0 +1,2 @@
+# Add your code here and run the main.py.
+say Go to code.txt
