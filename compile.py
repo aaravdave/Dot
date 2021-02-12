@@ -1,6 +1,6 @@
 variables = {}
 
-with open(f'{__name__}.dscr') as file:
+with open('code.dscr') as file:
     for line in file:
         line = line.strip().split()
         if ''.join(line) == '':
