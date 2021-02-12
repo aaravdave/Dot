@@ -1,6 +1,6 @@
 variables = {}
 
-with open('DScript.txt') as file:
+with open(f'{__name__}.dscr') as file:
     for line in file:
         line = line.strip().split()
         if ''.join(line) == '':
