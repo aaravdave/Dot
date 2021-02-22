@@ -15,7 +15,7 @@ You can use variables in ```say``` functions like this: ```say [varname]```
 You can use anything in the if condition. We currently support ```equals``` and ```not equals```. Here is it used in code:
 ```
 user equals orangutan
-if user not equals human
-say Not a human!
+if [user] not equals human
+say You are a [user] and not a human.
 end
 ```
