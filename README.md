@@ -11,3 +11,11 @@ Variables can be called using brackets. Such as: ```[varname]```
 To print things in the console, you use the ```say``` function.  
 Context is as such: ```say Hello World!```  
 You can use variables in ```say``` functions like this: ```say [varname]```
+### If
+You can use anything in the if condition. We currently support ```equals``` and ```not equals```. Here is it used in code:
+```
+user equals orangutan
+if user not equals human
+say Not a human!
+end
+```
