@@ -67,7 +67,7 @@ def run(code):
                         continue
                 while if_in == '' or if_in == 'if' and eval_condition(current_condition) or len(if_in.split()) == 3 and if_in.split()[0] == 'for' and variables[if_in.split()[1]] != int(if_in.split()[2]) + 1:
                     if 'equals' in line:
-                        variables[line[0]] = line[2]
+                        variables[line[0]] = check_var(line[2])
                     elif line[0] == 'say':
                         text = Label(window, text=[check_var(i) for i in line[1:]])
                         text.place(x=0, y=window_line * 20, height=20)
