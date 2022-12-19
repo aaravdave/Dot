@@ -1,0 +1,18 @@
+say "Program start"
+//   The rest of the program isn't properly indented.
+
+if "human" is "human" {
+    if 'id' is 'official' {  //  This is basically checking if the ID is valid.
+say "Entry granted"
+    } else {
+        //Yes, I'm sorry, I couldn't find a better word than oubfficial.
+        say "Entry denied: Unofficial ID"
+    }
+
+} else {  // This is if you aren't human.
+say "Entry denied: Different Species"
+}
+say 'Program finish'
+
+//All Done!
+// Unless.....
